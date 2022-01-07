@@ -1,0 +1,37 @@
+﻿{
+    "ID": "11111111-1111-1111-0000-000000000000",
+    "Description": "complex model",
+    "Count": 5,
+    "typeProperties": {
+        "clusterUri": "",
+        "userName": "testHD",
+        "password": "deifevneieireferf",
+        "linkedServiceName": "linkedService",
+        "hcatalogLinkedServiceName": "hctagloglink",
+        "encryptedCredential": {
+            "username": "abcde",
+            "password": "bbsderfre"
+        },
+        "isEspEnabled": true,
+        "fileSystem": "dbserver",
+        "type": "AzureServiceLink",
+        "connectVia": {
+            "connectstring": "urlstring",
+            "container": "blob"
+        },
+        "annotations": [
+            {
+                "id": "1",
+                "name": "object1"
+            },
+            {
+                "id": "2",
+                "name": "object2"
+            },
+            {
+                "id": "3",
+                "name": "object3"
+            }
+        ]
+    }
+}
